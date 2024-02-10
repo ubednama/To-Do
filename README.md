@@ -1,8 +1,11 @@
-# Getting Started with Create React App
+# To-do with Reactjs
+Simple To-do web app build using JSX & Reactjs
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#### Available Scripts
 
 In the project directory, you can run:
 
