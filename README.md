@@ -1,17 +1,27 @@
-# To-do with Reactjs
-Simple To-do web app build using JSX & Reactjs
+# To-Do List Application
+
+A simple and elegant To-Do List application built using React. This app allows users to add, delete, and mark tasks as complete while supporting dark mode.
 
 ## Features
-Add new todos.
-Mark todos as complete.
-Delete todos.
-Offline functionality: ToDos are saved locally in the browser, allowing them to persist even when offline.
-## Technologies Used
-React: A JavaScript library for building user interfaces.
-JavaScript: A high-level programming language commonly used for web development.
+
+- **Add Tasks**: Easily add tasks to your to-do list.
+- **Delete Tasks**: Remove tasks that are no longer needed.
+- **Mark as Complete**: Toggle the completion status of each task.
+- **Dark Mode Support**: Switch between light and dark themes for better user experience.
+- **Local Storage**: Persist tasks across sessions using local storage.
 
 ## Usage
-Add new todos by typing in the input field and pressing Enter.
-Click on a todo to mark it as complete.
-Hover over a todo and click the delete icon to remove it from the list.
-Even if you reload the page or close the browser, your todos will still be available.
+
+Add a new task by typing in the input field and clicking the "ADD" button.  
+Click on the task to mark it as complete.  
+Use the trash icon to delete a task from the list.  
+Toggle between light and dark mode using the theme toggle button at the top.  
+
+## Screenshots
+
+
+## Acknowledgements
+
+[React](https://reactjs.org/) for the frontend framework.  
+[Tailwind CSS](https://tailwindcss.com/) for styling.  
+[Lucide Icons](https://lucide.dev/) for the icons.  
