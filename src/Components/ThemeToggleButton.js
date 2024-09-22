@@ -11,7 +11,7 @@ const ThemeToggleButton = () => {
             <button
                 onClick={toggleDarkMode}
                 className=' rounded text-white'>
-                {isDarkMode ? <Sun className='size-10' /> : <Moon className='size-10' />}
+                {isDarkMode ? <Sun className='size-8 sm:size-10' /> : <Moon className='size-8 sm:size-10' />}
             </button>
         </div>
     );
