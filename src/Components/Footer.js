@@ -1,15 +1,15 @@
-import React from 'react'
+import { Github } from 'lucide-react';
+import React from 'react';
 
 export const Footer = () => {
-  let footerStyle = {
-    width: '100%',
-    bottom: '0',
-  }
   return (
-    <footer className='bg-dark text-light py-3' style={footerStyle}>
-      <p className='text-center'>
-        Copyright &copy; MyTodoList
-      </p>
-    </footer>
-  )
+    <footer className='text-white py-3'>
+      <div className='text-center'>
+        Copyright &copy; MyTodoList.
+      </div>
+      <div className='flex items-center justify-center'>
+        Made with ❤️ by <a href="https://github.com/ubednama" className='underline flex items-center justify-center gap-x-2 ml-2' target="_blank" rel="noopener noreferrer"> <Github /> ubednama </a>
+    </div>
+    </footer >
+  );
 }

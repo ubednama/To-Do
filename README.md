@@ -5,7 +5,7 @@ Simple To-do web app build using JSX & Reactjs
 Add new todos.
 Mark todos as complete.
 Delete todos.
-Offline functionality: Todos are saved locally in the browser, allowing them to persist even when offline.
+Offline functionality: ToDos are saved locally in the browser, allowing them to persist even when offline.
 ## Technologies Used
 React: A JavaScript library for building user interfaces.
 JavaScript: A high-level programming language commonly used for web development.
