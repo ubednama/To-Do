@@ -18,6 +18,7 @@ Use the trash icon to delete a task from the list.
 Toggle between light and dark mode using the theme toggle button at the top.  
 
 ## Screenshots
+![Screenshot](https://github.com/user-attachments/assets/cd158b24-4a99-4018-a8db-627b3d73eb4e)
 
 
 ## Acknowledgements
