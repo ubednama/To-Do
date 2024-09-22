@@ -3,7 +3,7 @@ import React from 'react';
 
 export const Footer = () => {
   return (
-    <footer className='text-white py-3'>
+    <footer className='text-white py-3 space-y-1'>
       <div className='text-center'>
         Copyright &copy; MyTodoList.
       </div>
