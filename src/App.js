@@ -5,11 +5,18 @@ import { useTheme } from './ThemeContext';
 
 function App() {
   const { isDarkMode } = useTheme();
-
   return (
-    <div className={`bg-stone-900 grid grid-rows-[auto_1fr_auto] h-screen ${isDarkMode ? 'dark' : ''}`}>
-      <ThemeToggleButton />
-      <ToDos />
+    <div className={`min-h-screen flex flex-col relative transition-colors duration-200 ${
+      isDarkMode 
+        ? 'bg-black text-white dark' 
+        : 'text-white bg-stone-900 '
+    }`}>
+      <div className="absolute top-4 right-4 z-10">
+        <ThemeToggleButton />
+      </div>
+      <main className="flex-1 flex items-center justify-center px-4">
+        <ToDos />
+      </main>
       <Footer />
     </div>
   );

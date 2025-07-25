@@ -35,7 +35,7 @@ export const ToDos = () => {
   }, [myTodoList]);
 
   return (
-    <div className='bg-white dark:bg-black text-black dark:text-slate-300 place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl'>
+    <div className='bg-white dark:bg-black text-black dark:text-slate-300 place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl dark:border dark:border-white-50'>
       <div className='flex items-center mt-7 gap-2'>
         <CalendarPlus className='size-8 cursor-pointer mr-2' />
         <h1 className='text-3xl font-semibold'>To-Do list</h1>
